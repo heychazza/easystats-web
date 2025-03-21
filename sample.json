@@ -1,0 +1,197 @@
+{
+  "export_date": "2025-03-21T14:20:00",
+  "timeframe": "30d",
+  "timeframe_days": "30",
+  "player_count": {
+      "current": 312,
+      "averages": {
+          "24h": 228,
+          "7d": 242,
+          "14d": 251,
+          "30d": 239
+      },
+      "peak_count": 789,
+      "peak_time": "2025-03-19 22:15:00"
+  },
+  "platform_stats": {
+      "play.example.com": {
+          "total": 4523,
+          "java": 2789,
+          "bedrock": 1734,
+          "player_count": {
+              "current": 98,
+              "averages": {
+                  "24h": 84,
+                  "7d": 91,
+                  "14d": 95,
+                  "30d": 92
+              },
+              "peak_count": 305,
+              "peak_time": "2025-03-18 20:10:00"
+          }
+      },
+      "bedrock.example.com": {
+          "total": 1250,
+          "java": 215,
+          "bedrock": 1035
+      },
+      "lobby.example.com": {
+          "total": 4350,
+          "java": 3850,
+          "bedrock": 500
+      },
+      "mc.example.com": {
+          "total": 3120,
+          "java": 2230,
+          "bedrock": 890,
+          "player_count": {
+              "current": 144,
+              "averages": {
+                  "24h": 127,
+                  "7d": 132,
+                  "14d": 138,
+                  "30d": 134
+              },
+              "peak_count": 456,
+              "peak_time": "2025-03-17 18:50:00"
+          }
+      },
+      "event.example.com": {
+          "total": 2430,
+          "java": 1740,
+          "bedrock": 690
+      },
+      "skyblock.example.com": {
+          "total": 2785,
+          "java": 2040,
+          "bedrock": 745
+      },
+      "prison.example.com": {
+          "total": 1345,
+          "java": 1045,
+          "bedrock": 300
+      }
+  },
+  "revenue_stats": {
+      "play.example.com": {
+          "USD": 3100.25,
+          "EUR": 2600.75
+      },
+      "bedrock.example.com": {
+          "USD": 10200.5,
+          "EUR": 8900.2
+      },
+      "lobby.example.com": {
+          "USD": 31500.75,
+          "EUR": 27450.55
+      },
+      "mc.example.com": {
+          "USD": 4400.9,
+          "EUR": 3800.3
+      },
+      "event.example.com": {
+          "USD": 6500.99,
+          "EUR": 5200.45
+      },
+      "skyblock.example.com": {
+          "USD": 7200.5,
+          "EUR": 6150.25
+      },
+      "prison.example.com": {
+          "USD": 3750.3,
+          "EUR": 3100.15
+      }
+  },
+  "session_stats": {
+      "play.example.com": {
+          "average_time_seconds": 7682,
+          "average_time_formatted": "2h 8m 2s"
+      },
+      "mc.example.com": {
+          "average_time_seconds": 9453,
+          "average_time_formatted": "2h 37m 33s"
+      },
+      "lobby.example.com": {
+          "average_time_seconds": 14892,
+          "average_time_formatted": "4h 8m 12s"
+      },
+      "event.example.com": {
+          "average_time_seconds": 1153,
+          "average_time_formatted": "19m 13s"
+      },
+      "skyblock.example.com": {
+          "average_time_seconds": 12350,
+          "average_time_formatted": "3h 25m 50s"
+      },
+      "prison.example.com": {
+          "average_time_seconds": 4852,
+          "average_time_formatted": "1h 20m 52s"
+      }
+  },
+  "campaigns": [
+      {
+          "name": "spring_extravaganza_2025",
+          "description": "Huge spring event with special perks",
+          "start_date": "2025-03-01",
+          "end_date": "2025-03-31",
+          "currency": "USD",
+          "cost": 9200,
+          "total_revenue": 7800,
+          "profit": -1400,
+          "roi": -15.22,
+          "status": "active",
+          "hostnames": [
+              "play.example.com",
+              "skyblock.example.com",
+              "mc.example.com"
+          ],
+          "join_stats": {
+              "total": 1250,
+              "java": 850,
+              "bedrock": 400
+          }
+      },
+      {
+          "name": "winter_blast_2024",
+          "description": "Winter-themed battle events",
+          "start_date": "2024-12-01",
+          "end_date": "2024-12-31",
+          "currency": "USD",
+          "cost": 11000,
+          "total_revenue": 9900,
+          "profit": -1100,
+          "roi": -10,
+          "status": "ended",
+          "hostnames": [
+              "lobby.example.com",
+              "prison.example.com"
+          ],
+          "join_stats": {
+              "total": 980,
+              "java": 720,
+              "bedrock": 260
+          }
+      },
+      {
+          "name": "summer_heatwave_2025",
+          "description": "Summer XP boost event",
+          "start_date": "2025-06-01",
+          "end_date": "2025-08-31",
+          "currency": "EUR",
+          "cost": 6000,
+          "total_revenue": 14500,
+          "profit": 8500,
+          "roi": 141.67,
+          "status": "planned",
+          "hostnames": [
+              "play.example.com",
+              "event.example.com"
+          ],
+          "join_stats": {
+              "total": 2100,
+              "java": 1500,
+              "bedrock": 600
+          }
+      }
+  ]
+}
